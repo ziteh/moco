@@ -1231,10 +1231,10 @@
   )
 
   (symbol (lib_id "Driver_FET:LM5109MA") (at 115.57 77.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 5345d896-dcd3-458b-99d2-3c0904e52400)
-    (property "Reference" "U6" (id 0) (at 115.57 62.23 0))
-    (property "Value" "LM5109A" (id 1) (at 115.57 64.77 0))
+    (property "Reference" "U6" (id 0) (at 115.57 63.5 0))
+    (property "Value" "LM5109A" (id 1) (at 115.57 66.04 0))
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 115.57 90.17 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
