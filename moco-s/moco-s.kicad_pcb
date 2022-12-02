@@ -3041,7 +3041,7 @@
 
   (footprint "moco:AMASS MR30PB-F" (layer "F.Cu")
     (tedit 0) (tstamp 687f3d43-0791-4e19-9ff5-454bfaffdb7a)
-    (at 147.5 77.5 -90)
+    (at 147.5 79 -90)
     (property "Note" "J7 connect to motor")
     (property "Sheetfile" "File: motor_driver.kicad_sch")
     (property "Sheetname" "Motor Driver")
