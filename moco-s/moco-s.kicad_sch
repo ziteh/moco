@@ -6,7 +6,10 @@
 
   (title_block
     (title "MoCo-S")
+    (date "2022-12-07")
     (rev "1.0")
+    (comment 1 "MIT license (Open source hardware)")
+    (comment 2 "https://github.com/ziteh/moco")
   )
 
   (lib_symbols
