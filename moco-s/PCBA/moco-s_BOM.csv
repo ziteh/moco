@@ -12,7 +12,7 @@ Comment,Designator,Footprint,JLCPCB Part #
 4.7uF,C3,Capacitor_SMD:C_0402_1005Metric,C23733
 100nF,"C36,C39,C40,C41,C42,C44,C45,C46",Capacitor_SMD:C_0402_1005Metric,C1525
 12pF,"C37,C38",Capacitor_SMD:C_0402_1005Metric,C1547
-22pF,"C47,C48",Capacitor_SMD:C_0402_1005Metric,C1653
+22pF,"C47,C48",Capacitor_SMD:C_0402_1005Metric,C1555
 1uF,C49,Capacitor_SMD:C_0603_1608Metric,
 82pF,C5,Capacitor_SMD:C_0402_1005Metric,C107011
 100nF,C50,Capacitor_SMD:C_0603_1608Metric,
