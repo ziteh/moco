@@ -8,6 +8,8 @@ BLDC motor controller/driver PCB, based on [ODrive](https://github.com/odriverob
 
 Based on STM32G431C8T6 MCU, DRV8301 gate driver, CSD18540Q5B power N-MOSFETs and AS5047x magnetic encoder.
 
+> Seems unstable.
+
 |Front|Back|Layers|
 |-|-|-|
 |![](https://i.imgur.com/jKlRSL9.png)|![](https://i.imgur.com/IBP8MkX.png)|![](https://i.imgur.com/w53ePka.jpg)|
@@ -63,3 +65,9 @@ Support JLCPCB's PCBA service.
 ## [moco-o](./moco-o/)
 
 *WIP*
+
+## Disclaimer
+
+These files are provided without warranty of any kind, use at your own risk.
+
+For the full statement, please see [LICENSE](./LICENSE).
