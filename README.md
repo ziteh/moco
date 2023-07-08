@@ -2,7 +2,7 @@
 
 BLDC motor controller/driver PCB, based on [ODrive](https://github.com/odriverobotics/ODriveHardware) `v3.5` PCB and [SimpleFOC](https://simplefoc.com/) firmware.
 
-## [moco-s](./moco-s/)
+## moco-s
 
 ![](https://i.imgur.com/ffNdd2O.jpg)
 
@@ -60,6 +60,7 @@ Based on STM32G431C8T6 MCU, DRV8301 gate driver, CSD18540Q5B power N-MOSFETs and
 
 Support JLCPCB's PCBA service.
 
-## [moco-o](./moco-o/)
+## moco-o
 
 *WIP*
+
