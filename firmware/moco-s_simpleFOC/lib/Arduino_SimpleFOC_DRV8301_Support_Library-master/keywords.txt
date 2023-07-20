@@ -1,0 +1,20 @@
+#######################################
+# Syntax Coloring Map Servo
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+DRV8301	KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+reset_all_faults	KEYWORD2
+set_3pwm_input	KEYWORD2
+set_6pwm_input	KEYWORD2
+is_fault	KEYWORD2
+get_id	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################

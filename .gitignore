@@ -33,8 +33,7 @@ fp-info-cache
 *.gbr
 *.gm1
 *.drl
+jlcpcb/
 
 # Backup
 *-backups/
-
-jlcpcb/
