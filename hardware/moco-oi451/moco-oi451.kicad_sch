@@ -1,0 +1,21 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 171831cd-2a0d-47b9-8420-65898c688d08)
+
+  (paper "A4")
+
+  (title_block
+    (title "moco-OI451")
+    (rev "1.0")
+    (comment 1 "MIT license (Open source hardware)")
+    (comment 2 "https://github.com/ziteh/moco")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
