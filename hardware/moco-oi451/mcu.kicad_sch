@@ -2074,7 +2074,7 @@
     (property "Value" "RESET" (at 52.07 78.74 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342" (at 54.61 76.2 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" (at 54.61 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 54.61 76.2 0)
