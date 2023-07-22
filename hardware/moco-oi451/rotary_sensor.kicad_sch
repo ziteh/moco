@@ -489,7 +489,7 @@
   (symbol (lib_id "power:GND") (at 127 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0be9e6e5-dc6b-4f33-b041-0aa4f9051c55)
-    (property "Reference" "#PWR040" (at 127 91.44 0)
+    (property "Reference" "#PWR039" (at 127 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 88.9 0)
@@ -505,7 +505,7 @@
     (instances
       (project "moco-oi451"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/09f9ddc7-dce7-4d23-abae-17b64541c78f"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "moco-od501"
@@ -519,7 +519,7 @@
   (symbol (lib_id "Device:C") (at 133.35 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f771147-aa48-4bcb-b853-bfa3c01f9f8a)
-    (property "Reference" "C35" (at 133.35 76.2 90)
+    (property "Reference" "C34" (at 133.35 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 133.35 78.74 90)
@@ -536,7 +536,7 @@
     (instances
       (project "moco-oi451"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/09f9ddc7-dce7-4d23-abae-17b64541c78f"
-          (reference "C35") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -545,7 +545,7 @@
   (symbol (lib_id "power:GND") (at 143.51 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aaab2fe8-e862-4bab-bc10-b990cbc240ef)
-    (property "Reference" "#PWR042" (at 143.51 121.92 0)
+    (property "Reference" "#PWR041" (at 143.51 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 119.38 0)
@@ -561,7 +561,7 @@
     (instances
       (project "moco-oi451"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/09f9ddc7-dce7-4d23-abae-17b64541c78f"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "moco-od501"
@@ -575,7 +575,7 @@
   (symbol (lib_id "power:+3.3V") (at 119.38 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b66960fa-d095-47bc-a1ba-f0a8b37ead9c)
-    (property "Reference" "#PWR041" (at 123.19 105.41 0)
+    (property "Reference" "#PWR040" (at 123.19 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 116.84 105.41 90)
@@ -591,7 +591,7 @@
     (instances
       (project "moco-oi451"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/09f9ddc7-dce7-4d23-abae-17b64541c78f"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "moco-od501"
@@ -605,7 +605,7 @@
   (symbol (lib_id "power:+3.3V") (at 143.51 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c48e49b4-b504-450e-8a23-2cd33c34d1a3)
-    (property "Reference" "#PWR039" (at 143.51 82.55 0)
+    (property "Reference" "#PWR038" (at 143.51 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 143.51 74.93 0)
@@ -621,7 +621,7 @@
     (instances
       (project "moco-oi451"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/09f9ddc7-dce7-4d23-abae-17b64541c78f"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "moco-od501"
