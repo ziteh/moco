@@ -32,8 +32,8 @@
 | SPI nCS AS5047x          | --      | PB2   |            |
 | USART Tx                 | --      | PA2   | USART2     |
 | USART Rx                 | --      | PA3   | USART2     |
-| User LED 1 (Red)         | --      | PA0   |            |
-| User LED 2 (Blue)        | --      | PA1   |            |
+| User LED 1 (Red)         | --      | PA0   | Active LOW |
+| User LED 2 (Blue)        | --      | PA1   | Active LOW |
 | 5V indicator LED (Green) | --      | --    |            |
 
 ## Jumper
