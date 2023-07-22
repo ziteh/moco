@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "moco-OI451")
+    (title "moco-OI401")
     (rev "1.0")
     (comment 1 "BLDC motor controller/driver")
     (comment 2 "MIT license (Open source hardware)")
@@ -1606,7 +1606,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "H3") (unit 1)
         )
@@ -1636,7 +1636,7 @@
     )
     (pin "1" (uuid 25fd1623-883a-4ba1-8c5d-ae5938f59bf6))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "#PWR011") (unit 1)
         )
@@ -1669,7 +1669,7 @@
     )
     (pin "1" (uuid 2749194a-da13-4475-ac46-99889467d538))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "#PWR05") (unit 1)
         )
@@ -1699,7 +1699,7 @@
     )
     (pin "1" (uuid 907da99f-e79c-46df-9c18-2ed4c0f94e18))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "#PWR03") (unit 1)
         )
@@ -1736,7 +1736,7 @@
     (pin "1" (uuid 86d764d5-f4b4-4b00-8013-105cbd7804a1))
     (pin "2" (uuid e3443baa-fbcf-4eb5-b3f4-109d23ab3f53))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "R2") (unit 1)
         )
@@ -1766,7 +1766,7 @@
     )
     (pin "1" (uuid b086c60a-da03-467a-81ff-e1e1196dedcc))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "#PWR08") (unit 1)
         )
@@ -1799,7 +1799,7 @@
     )
     (pin "1" (uuid 74c7633b-26bf-4914-b4ea-6f8b722d2406))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "#PWR04") (unit 1)
         )
@@ -1831,7 +1831,7 @@
     (pin "2" (uuid b51ec1cf-5020-4101-ae22-92338d37f1d8))
     (pin "3" (uuid 5552cf33-2efa-4f40-bb84-08b82b24bcf1))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "J2") (unit 1)
         )
@@ -1861,7 +1861,7 @@
     )
     (pin "1" (uuid fe09cf1c-4b94-4350-a2e8-7994d9aba3cc))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "TP3") (unit 1)
         )
@@ -1894,7 +1894,7 @@
     )
     (pin "1" (uuid af954def-cb7a-4a20-a8fb-f54114ea81be))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "#PWR01") (unit 1)
         )
@@ -1927,7 +1927,7 @@
     )
     (pin "1" (uuid 065052d7-776e-49e8-836e-6e7b637b4374))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "#PWR02") (unit 1)
         )
@@ -1957,7 +1957,7 @@
     )
     (pin "1" (uuid 060a4281-9b49-4689-80ed-59b6870f5c04))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "#PWR012") (unit 1)
         )
@@ -1987,7 +1987,7 @@
     )
     (pin "1" (uuid 8e157a82-3b0a-401d-bab9-17919436b0e9))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "#PWR09") (unit 1)
         )
@@ -2017,7 +2017,7 @@
     )
     (pin "1" (uuid 0211db96-c1a6-4c38-bc5c-ffd05fe0bd76))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "TP1") (unit 1)
         )
@@ -2057,7 +2057,7 @@
     (pin "1" (uuid 605452d3-36fa-4719-afce-7f8ad411a549))
     (pin "2" (uuid 4c56ac73-81d8-423c-8212-1105c33ed284))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "R3") (unit 1)
         )
@@ -2088,7 +2088,7 @@
     (pin "1" (uuid 0403934f-5d7e-4b9e-87ca-9e846dbc141e))
     (pin "2" (uuid aa8bc485-06f7-47ea-82ef-448b7a3c75fd))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "SB2") (unit 1)
         )
@@ -2122,7 +2122,7 @@
     (pin "1" (uuid bb11dff4-79d2-4c38-8992-26a6874b7cc0))
     (pin "2" (uuid e172dcc7-c509-4b2a-a50f-3b0d927adf9f))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "C1") (unit 1)
         )
@@ -2159,7 +2159,7 @@
     (pin "3" (uuid 61cdd87f-1b5a-4342-ae46-51eeabf6da30))
     (pin "5" (uuid c581f17a-9f0e-42ac-9563-a98a0dba1962))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "U1") (unit 1)
         )
@@ -2199,7 +2199,7 @@
     (pin "1" (uuid c44a623a-f0c8-4e9c-80b3-bd6b2c0e8577))
     (pin "2" (uuid b9a0e1a4-b10f-4182-8cd4-412ba853014f))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "R1") (unit 1)
         )
@@ -2238,7 +2238,7 @@
     (pin "3" (uuid d4f64c88-6191-4b2b-aec1-3d7c48a241b9))
     (pin "4" (uuid 2ce0c4d6-5eed-4e9b-b945-765b1d415b42))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "LD1") (unit 1)
         )
@@ -2268,7 +2268,7 @@
     )
     (pin "1" (uuid af4bd60d-1f4d-4a41-8afa-232070d2ab70))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "J3") (unit 1)
         )
@@ -2301,7 +2301,7 @@
     )
     (pin "1" (uuid d67d9d13-cf2e-4a35-aab0-a68086cbe355))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "TP2") (unit 1)
         )
@@ -2333,7 +2333,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "H2") (unit 1)
         )
@@ -2363,7 +2363,7 @@
     )
     (pin "1" (uuid d3d0dcb2-915d-4673-b8f2-24f6baedfd07))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/8c626c9e-bc00-4eb5-9b1c-4380247b0f28"
           (reference "#PWR?") (unit 1)
         )
@@ -2395,7 +2395,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "H1") (unit 1)
         )
@@ -2425,7 +2425,7 @@
     )
     (pin "1" (uuid 4d7122ca-c813-4e1b-81e3-35f2baf5f4ab))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/e49edf63-a462-4dde-9ddc-a334d0522771"
           (reference "#PWR?") (unit 1)
         )
@@ -2454,7 +2454,7 @@
     (pin "1" (uuid a0434a9d-387e-4e35-b911-75792ee01f9f))
     (pin "2" (uuid 3c535c09-5e1b-407c-b625-0651b5388d34))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "C2") (unit 1)
         )
@@ -2494,7 +2494,7 @@
     (pin "7" (uuid 2a0dbdc8-3330-4199-9e2b-15a26c439d0c))
     (pin "8" (uuid a72818ff-7d3f-4142-a9a5-f2375189b22e))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "J1") (unit 1)
         )
@@ -2524,7 +2524,7 @@
     )
     (pin "1" (uuid cc94a86d-15f0-4b08-8412-9a531a3efae4))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "#PWR013") (unit 1)
         )
@@ -2554,7 +2554,7 @@
     )
     (pin "1" (uuid d37b7cc4-e9f4-41a0-a13a-d9665d8094f5))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "J4") (unit 1)
         )
@@ -2588,7 +2588,7 @@
     (pin "1" (uuid bece8dcc-8905-4d67-b1f5-7ce282bf8374))
     (pin "2" (uuid 2da29ab8-0c15-47fb-aaac-358e91dc7e82))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/e49edf63-a462-4dde-9ddc-a334d0522771"
           (reference "NT?") (unit 1)
         )
@@ -2617,7 +2617,7 @@
     (pin "1" (uuid 235918b0-eef2-47f6-975d-2f3f9eef1968))
     (pin "2" (uuid 3885ef52-8f80-47ed-8e63-893ca5868fa9))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "SB1") (unit 1)
         )
@@ -2650,7 +2650,7 @@
     )
     (pin "1" (uuid 4e34b8ca-cabb-4154-a898-3dacb4ddc85a))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08"
           (reference "#PWR07") (unit 1)
         )
@@ -2714,7 +2714,7 @@
       (uuid ba27af0b-aeca-44a5-add8-c72928d0c96f)
     )
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08" (page "4"))
       )
     )
@@ -2847,7 +2847,7 @@
       (uuid 196db845-5d8a-482f-8b94-f79832d0ac27)
     )
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08" (page "2"))
       )
     )
@@ -2936,7 +2936,7 @@
       (uuid f2d210ae-933e-43fe-9f8f-daf8861e7760)
     )
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08" (page "3"))
       )
     )

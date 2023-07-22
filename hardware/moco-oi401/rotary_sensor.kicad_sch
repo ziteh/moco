@@ -473,7 +473,7 @@
     (pin "8" (uuid e272cd71-1e5a-480c-a4f3-d2728211e77d))
     (pin "9" (uuid 773bf0c9-3e7a-4728-aa3c-3db42f070ef4))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/09f9ddc7-dce7-4d23-abae-17b64541c78f"
           (reference "U5") (unit 1)
         )
@@ -503,7 +503,7 @@
     )
     (pin "1" (uuid a05e09ac-9fe6-4635-b1f2-192562586ea6))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/09f9ddc7-dce7-4d23-abae-17b64541c78f"
           (reference "#PWR039") (unit 1)
         )
@@ -534,7 +534,7 @@
     (pin "1" (uuid 5c0b53d9-1235-422d-b6d6-8eecef036a0d))
     (pin "2" (uuid b685c345-6924-4906-b8b7-86ff2db2e061))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/09f9ddc7-dce7-4d23-abae-17b64541c78f"
           (reference "C34") (unit 1)
         )
@@ -559,7 +559,7 @@
     )
     (pin "1" (uuid 00088bf8-b073-4e1f-b675-d990cb051ac5))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/09f9ddc7-dce7-4d23-abae-17b64541c78f"
           (reference "#PWR041") (unit 1)
         )
@@ -589,7 +589,7 @@
     )
     (pin "1" (uuid 96386364-36cf-4467-abd1-3bacaef1bb24))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/09f9ddc7-dce7-4d23-abae-17b64541c78f"
           (reference "#PWR040") (unit 1)
         )
@@ -619,7 +619,7 @@
     )
     (pin "1" (uuid a6f3b585-61d4-40b2-b35a-db31fac5e0a1))
     (instances
-      (project "moco-oi451"
+      (project "moco-oi401"
         (path "/171831cd-2a0d-47b9-8420-65898c688d08/09f9ddc7-dce7-4d23-abae-17b64541c78f"
           (reference "#PWR038") (unit 1)
         )
