@@ -6,6 +6,7 @@ BLDC motor controller/driver PCBs, based on [ODrive](https://github.com/odrivero
 
 - [RD501](/hardware/moco-rd501/): DRV8301 + STM32G431
 - :construction:[OD501](/hardware/moco-od501/): DRV8323H + STM32G431
+- :construction:[OI401](/hardware/moco-oi401/): DRV8316C + STM32G431
 - :construction:[BKD8316](/hardware/moco-bkd8316/): DRV8316 Breakout board
 
 ## Disclaimer
