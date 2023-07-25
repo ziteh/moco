@@ -5,7 +5,7 @@
 - Overcurrent detection. Ith=30A @ OC_COMPth=500mV
 - Input voltage sensing
 - 32x32mm square PCB, 4xM2 mounting holes
-- [STSPIN32F0A](https://www.st.com/en/motor-drivers/stspin32f0a.html) MCU with embedded 3-phase gate driver SiP
+- [STSPIN32F0A](https://www.st.com/en/motor-drivers/stspin32f0a.html) 3-phase gate driver with embdded MCU SiP
   - STM32F031C6 48MHz, 4KB SRAM, 32KB Flash
   - 600mA sink/source gate drivers, integrated bootstrap diodes
   - 12V LDO and 3.3V buck

@@ -2,9 +2,10 @@
 
 ![moco-rd501](https://i.imgur.com/ffNdd2O.jpg)
 
-BLDC motor controller/driver PCBs, based on [ODrive](https://github.com/odriverobotics/ODriveHardware) `v3.5` PCB and [SimpleFOC](https://simplefoc.com/) firmware.
+BLDC motor controller/driver PCBs.
 
-- [RD501](/hardware/moco-rd501/): DRV8301 + STM32G431. Rectangle PCB 50x50mm.
+- [RD501](/hardware/moco-rd501/): DRV8301 + STM32G431. Square PCB 50x50mm.
+- :construction:[RD321](/hardware/moco-rd321/): STSPIN32F0A + SiZ250DT. Square PCB 32x32mm.
 - :construction:[OD501](/hardware/moco-od501/): DRV8323H + STM32G431. Round PCB Ø50mm.
 - :construction:[OI401](/hardware/moco-oi401/): DRV8316C + STM32G431. Round PCB Ø40mm.
 - :construction:[BKD8316](/hardware/moco-bkd8316/): DRV8316 Breakout board
