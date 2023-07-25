@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "moco")(type "KiCad")(uri "${KIPRJMOD}/../moco.pretty")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "C:/Users/lyke/Downloads/Compressed/LIB_SIZ250DT-T1-GE3/SIZ250DT-T1-GE3/KiCad.pretty")(options "")(descr ""))
+)
