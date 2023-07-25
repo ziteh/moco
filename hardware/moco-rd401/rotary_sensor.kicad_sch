@@ -488,7 +488,7 @@
   (symbol (lib_id "power:GND") (at 151.13 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dd4c538-d034-478a-921d-5ae873ef4ee4)
-    (property "Reference" "#PWR050" (at 151.13 113.03 0)
+    (property "Reference" "#PWR051" (at 151.13 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 110.49 0)
@@ -504,7 +504,7 @@
     (instances
       (project "moco-rd401"
         (path "/0d0fd026-cb0a-4e9b-9c13-e9923112ca8f/76a9f954-8f85-4c28-9e94-2311c533c47d"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -513,7 +513,7 @@
   (symbol (lib_id "power:GND") (at 171.45 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ba2e915-0738-4f6d-998f-202abf4fd121)
-    (property "Reference" "#PWR049" (at 171.45 80.01 0)
+    (property "Reference" "#PWR050" (at 171.45 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 77.47 0)
@@ -529,7 +529,7 @@
     (instances
       (project "moco-rd401"
         (path "/0d0fd026-cb0a-4e9b-9c13-e9923112ca8f/76a9f954-8f85-4c28-9e94-2311c533c47d"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -538,7 +538,7 @@
   (symbol (lib_id "power:+3.3V") (at 151.13 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed3a3d53-5120-4e32-8c53-86fee2462789)
-    (property "Reference" "#PWR048" (at 151.13 74.93 0)
+    (property "Reference" "#PWR049" (at 151.13 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 151.13 67.31 0)
@@ -554,7 +554,7 @@
     (instances
       (project "moco-rd401"
         (path "/0d0fd026-cb0a-4e9b-9c13-e9923112ca8f/76a9f954-8f85-4c28-9e94-2311c533c47d"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -592,7 +592,7 @@
           (reference "C?") (unit 1)
         )
         (path "/0d0fd026-cb0a-4e9b-9c13-e9923112ca8f/76a9f954-8f85-4c28-9e94-2311c533c47d"
-          (reference "C26") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
