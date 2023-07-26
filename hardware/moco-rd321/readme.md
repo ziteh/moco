@@ -28,9 +28,9 @@
 | OC protection selection  | OC_SEL       | PA11  | Push-pull output |
 | OC comparator output     | OC_COMP_INT  | PB12  | TIM1_BKIN        |
 | OC comparator output     | OC_COMP_INT2 | PA12  | TIM1_ETR         |
-| Current sense U          | --           | PA0   | ADC_IN0          |
-| Current sense V          | --           | PA1   | ADC_IN1          |
-| Current sense W          | --           | PB1   | ADC_IN9          |
+| Current sense U          | OP3O         | PA0   | ADC_IN0          |
+| Current sense V          | OP2O         | PA1   | ADC_IN1          |
+| Current sense W          | OP1O         | PB1   | ADC_IN9          |
 | VM sense                 | --           | PA4   | ADC_IN4          |
 | SPI SCLK                 | --           | PA5   | SPI1             |
 | SPI MISO                 | --           | PA6   | SPI1             |
@@ -103,3 +103,4 @@ MA702 encoder SPI:
 - ST DB4049 *"EVALKIT-ROBOT-1: Compact reference design kit for robotics and automation based on STSPIN32F0A"*
 - ST DB3798 *"STEVAL-ESC002V1: Electronic Speed Controller reference design based on STSPIN32F0A"*
 - TI SLUA887 *"Bootstrap Circuitry Selection for Half-Bridge Configurations"*
+- Diodes DN1156 *"Gate Drivers in BLDC Motors"*
