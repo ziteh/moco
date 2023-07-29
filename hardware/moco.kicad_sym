@@ -9,7 +9,7 @@
     (property "Footprint" "moco:VSON-CLIP-22_5x6mm (DMM0022A)_Alt1" (at 0 -16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at -6.35 0 0)
+    (property "Datasheet" "https://www.ti.com/product/CSD88584Q5DC" (at -6.35 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "40-V Half-Bridge NexFET™ Power Block" (at 0 0 0)
