@@ -174,7 +174,8 @@
       "track_widths": [
         0.0,
         0.2,
-        0.35
+        0.35,
+        0.4
       ],
       "via_dimensions": [
         {
@@ -415,7 +416,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "moco-pg4_2.kicad_pro",
+    "filename": "moco-sc1.kicad_pro",
     "version": 1
   },
   "net_settings": {

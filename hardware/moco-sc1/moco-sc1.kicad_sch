@@ -6,11 +6,12 @@
 
   (title_block
     (title "moco-SC1")
-    (rev "1.0")
+    (rev "1.1")
     (comment 1 "BLDC motor controller/driver")
     (comment 2 "STSPIN32G4 MCU/Gate driver and CSD88584Q5DC Dual N-MOSFET")
     (comment 3 "MIT license (Open source hardware)")
     (comment 4 "https://github.com/ziteh/moco")
+    (comment 5 "The shcematic of rev1.0 and rev1.1 are the same")
   )
 
   (lib_symbols

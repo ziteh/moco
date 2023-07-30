@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 49,
+    "active_layer": 1,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -61,8 +61,8 @@
       35,
       40
     ],
-    "visible_layers": "fffffff_ffffffe5",
-    "zone_display_mode": 0
+    "visible_layers": "fffffff_fffffffd",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "moco-sc1.kicad_prl",
