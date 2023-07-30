@@ -129,4 +129,9 @@
   (pad "27" thru_hole circle (at 1.275 -1.32) (size 0.75 0.75) (drill 0.35) (layers "*.Cu" "F.Mask") (tstamp c67f3bc8-c5fc-431e-bb19-f7b57e684468))
   (pad "27" thru_hole circle (at 1.275 0) (size 0.75 0.75) (drill 0.35) (layers "*.Cu" "F.Mask") (tstamp d5651213-8b0a-4a6e-b872-c49b039e6513))
   (pad "27" thru_hole circle (at 1.275 1.32) (size 0.75 0.75) (drill 0.35) (layers "*.Cu" "F.Mask") (tstamp dd63a082-a458-464c-a4e2-d7a862552af8))
+  (model "${KICAD_USER_TEMPLATE_DIR}/DMM0022A.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

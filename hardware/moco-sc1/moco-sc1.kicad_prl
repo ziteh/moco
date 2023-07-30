@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 49,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -25,7 +25,7 @@
       "text": true,
       "tracks": true,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       0,
@@ -61,11 +61,11 @@
       35,
       40
     ],
-    "visible_layers": "fffffff_ffffffed",
+    "visible_layers": "fffffff_ffffffe5",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "moco-pg4_2.kicad_prl",
+    "filename": "moco-sc1.kicad_prl",
     "version": 3
   },
   "project": {

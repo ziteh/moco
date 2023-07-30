@@ -2327,7 +2327,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R18") (unit 1)
         )
@@ -2359,7 +2359,7 @@
     (pin "1" (uuid c11cc99e-3b81-4d79-bf49-d55512e1a913))
     (pin "2" (uuid 9f46243f-186a-4dbc-bdd9-77a3c7a372f5))
     (instances
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C16") (unit 1)
         )
@@ -2384,7 +2384,7 @@
     )
     (pin "1" (uuid ed4f83ae-a323-4030-8f44-e4a72214daea))
     (instances
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "#PWR?") (unit 1)
         )
@@ -2426,7 +2426,7 @@
           (reference "NT?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "NT?") (unit 1)
         )
@@ -2469,7 +2469,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "C?") (unit 1)
         )
@@ -2501,6 +2501,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 156.21 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 156.21 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c6a3274a-2a96-41ea-83f0-dd08bff5467f))
     (pin "2" (uuid c2172112-e452-4ac5-a6e5-8a97f11a9149))
     (instances
@@ -2522,7 +2525,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C38") (unit 1)
         )
@@ -2555,7 +2558,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "#PWR050") (unit 1)
         )
@@ -2593,7 +2596,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "#PWR049") (unit 1)
         )
@@ -2622,6 +2625,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 130.81 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 130.81 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fc828ad7-b5d8-4ed7-a32f-d630beb5f988))
     (pin "2" (uuid 8d801cca-c8f4-4618-9f35-c11d222bf5da))
     (instances
@@ -2643,7 +2649,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C36") (unit 1)
         )
@@ -2666,10 +2672,10 @@
     (property "Datasheet" "~" (at 96.52 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C840620" (at 96.52 191.77 0)
+    (property "LCSC" "" (at 96.52 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR. Part#" "CRA2512-FZ-R020ELF" (at 96.52 191.77 0)
+    (property "MFR. Part#" "MSMA2512R0200FGM" (at 96.52 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Note" "R_{S}" (at 96.52 191.77 90)
@@ -2691,7 +2697,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "R?") (unit 1)
         )
@@ -2732,7 +2738,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "#PWR?") (unit 1)
         )
@@ -2764,6 +2770,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 41.91 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 41.91 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6574f18b-0af2-426c-aea8-9e12282045c0))
     (pin "2" (uuid 1e95083e-f9ba-43b7-aad1-f679a7f4f4a8))
     (instances
@@ -2785,7 +2794,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C29") (unit 1)
         )
@@ -2842,7 +2851,7 @@
     (pin "2" (uuid fec1083b-d580-4e0a-a006-a3b0827691f7))
     (pin "3" (uuid bd6558fa-7ffa-4af1-b4ae-f54c27405e03))
     (instances
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "Q2") (unit 1)
         )
@@ -2871,6 +2880,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 80.01 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 80.01 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 55954507-4433-4d89-ad00-bd0be5ff4a82))
     (pin "2" (uuid 2ebfdeb6-a011-4558-b274-0cebcb51df62))
     (instances
@@ -2892,7 +2904,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C32") (unit 1)
         )
@@ -2928,7 +2940,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "#PWR033") (unit 1)
         )
@@ -2967,7 +2979,7 @@
           (reference "NT?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "NT?") (unit 1)
         )
@@ -3013,7 +3025,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R22") (unit 1)
         )
@@ -3053,7 +3065,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "C?") (unit 1)
         )
@@ -3094,7 +3106,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "#PWR?") (unit 1)
         )
@@ -3135,7 +3147,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "#PWR?") (unit 1)
         )
@@ -3233,7 +3245,7 @@
     (pin "36" (uuid 2a257988-cf76-4fad-a997-f19c3ea5d158))
     (pin "37" (uuid 98d47cbc-d716-459e-85b6-c19332b77b17))
     (instances
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "U?") (unit 4)
         )
@@ -3275,7 +3287,7 @@
           (reference "NT?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "NT?") (unit 1)
         )
@@ -3316,7 +3328,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "#PWR?") (unit 1)
         )
@@ -3351,7 +3363,7 @@
     (pin "1" (uuid 81419dca-99d3-431c-887f-590ee2a21339))
     (pin "2" (uuid e7523c8c-d208-476d-9a51-685e031ccf13))
     (instances
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C20") (unit 1)
         )
@@ -3384,7 +3396,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "#PWR041") (unit 1)
         )
@@ -3424,7 +3436,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "R?") (unit 1)
         )
@@ -3466,7 +3478,7 @@
           (reference "NT?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "NT?") (unit 1)
         )
@@ -3509,7 +3521,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "R?") (unit 1)
         )
@@ -3549,7 +3561,7 @@
           (reference "C25") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C27") (unit 1)
         )
@@ -3588,7 +3600,7 @@
           (reference "NT?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "NT?") (unit 1)
         )
@@ -3614,10 +3626,10 @@
     (property "Datasheet" "~" (at 96.52 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C840620" (at 96.52 127 0)
+    (property "LCSC" "" (at 96.52 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR. Part#" "CRA2512-FZ-R020ELF" (at 96.52 127 0)
+    (property "MFR. Part#" "MSMA2512R0200FGM" (at 96.52 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Note" "R_{S}" (at 96.52 127 90)
@@ -3639,7 +3651,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "R?") (unit 1)
         )
@@ -3680,7 +3692,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "#PWR051") (unit 1)
         )
@@ -3709,6 +3721,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 40.64 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 40.64 262.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a1ca7605-cce8-4c7a-b5c5-12fd3b1bc4c9))
     (pin "2" (uuid 54f2e9b9-7098-4cba-b35e-b01956f1876a))
     (instances
@@ -3730,7 +3745,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C42") (unit 1)
         )
@@ -3759,6 +3774,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 54.61 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 54.61 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 39e55cfc-6813-4282-837c-02b337680c78))
     (pin "2" (uuid 3b000c94-81db-4e0d-85a1-31f43870cd0e))
     (instances
@@ -3780,7 +3798,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C30") (unit 1)
         )
@@ -3820,7 +3838,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "C?") (unit 1)
         )
@@ -3880,7 +3898,7 @@
     (pin "2" (uuid 5a40138f-05dd-4cb9-b27f-97aad5be27d6))
     (pin "3" (uuid b8ccf7fc-6b3e-48b0-8e7d-620ca948a78c))
     (instances
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "Q3") (unit 1)
         )
@@ -3920,7 +3938,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "R?") (unit 1)
         )
@@ -3966,7 +3984,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R35") (unit 1)
         )
@@ -4006,7 +4024,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R27") (unit 1)
         )
@@ -4049,7 +4067,7 @@
           (reference "J?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "J?") (unit 1)
         )
@@ -4084,7 +4102,7 @@
     (pin "1" (uuid fe7051e2-5850-4385-866e-2b1bbdf29de9))
     (pin "2" (uuid 1cd96d89-7bee-4ac2-b661-c017f64435f8))
     (instances
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C24") (unit 1)
         )
@@ -4113,6 +4131,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 16.51 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 16.51 262.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 95869d5f-bbdf-49ac-82ae-c89fcd057842))
     (pin "2" (uuid 44f11b96-4b22-488e-a0e4-d250fc34dde6))
     (instances
@@ -4134,7 +4155,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C40") (unit 1)
         )
@@ -4163,6 +4184,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 105.41 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 105.41 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0ab921fe-01cd-4c90-acdc-7e5db3db9370))
     (pin "2" (uuid 958de175-c874-4f31-ad2f-48544c1fbb6a))
     (instances
@@ -4184,7 +4208,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C34") (unit 1)
         )
@@ -4224,7 +4248,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "C?") (unit 1)
         )
@@ -4260,7 +4284,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "#PWR035") (unit 1)
         )
@@ -4289,6 +4313,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 118.11 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 118.11 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 090c575b-da7e-4451-b76e-2beb5f6824f1))
     (pin "2" (uuid 27341217-3192-4386-9dc7-5ffa7b13c198))
     (instances
@@ -4310,7 +4337,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C35") (unit 1)
         )
@@ -4353,7 +4380,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R13") (unit 1)
         )
@@ -4382,6 +4409,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 67.31 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 67.31 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9f4850ad-1623-47f2-9573-12999e42bd99))
     (pin "2" (uuid d8d422b6-d87f-4e92-9680-970653f8ad0e))
     (instances
@@ -4403,7 +4433,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C31") (unit 1)
         )
@@ -4443,7 +4473,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "R?") (unit 1)
         )
@@ -4486,7 +4516,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "C?") (unit 1)
         )
@@ -4532,7 +4562,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R30") (unit 1)
         )
@@ -4568,7 +4598,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "#PWR039") (unit 1)
         )
@@ -4597,6 +4627,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 168.91 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 168.91 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2272a9e3-7eda-4eda-8622-5027a56e5bd1))
     (pin "2" (uuid d9e28f49-3ff5-46d7-afc9-a5daad05cfb3))
     (instances
@@ -4618,7 +4651,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C39") (unit 1)
         )
@@ -4658,7 +4691,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "R?") (unit 1)
         )
@@ -4699,7 +4732,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "#PWR?") (unit 1)
         )
@@ -4741,7 +4774,7 @@
           (reference "NT?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "NT?") (unit 1)
         )
@@ -4782,7 +4815,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "#PWR?") (unit 1)
         )
@@ -4825,7 +4858,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "C?") (unit 1)
         )
@@ -4868,7 +4901,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R9") (unit 1)
         )
@@ -4911,7 +4944,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R25") (unit 1)
         )
@@ -5006,7 +5039,7 @@
     (pin "36" (uuid 9f72e6d1-4c2f-4ee2-b315-ab2bec3412cc))
     (pin "37" (uuid e03d16ce-9eb2-4233-90f0-47f59d11797f))
     (instances
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "U?") (unit 3)
         )
@@ -5052,7 +5085,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R24") (unit 1)
         )
@@ -5092,7 +5125,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "R?") (unit 1)
         )
@@ -5128,7 +5161,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "#PWR047") (unit 1)
         )
@@ -5157,6 +5190,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 66.04 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 66.04 262.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7bbbc91a-cdb8-411b-99cb-a6c970eeeba8))
     (pin "2" (uuid b5cbbbcb-7dcc-4b8d-a491-b4b26447455a))
     (instances
@@ -5178,7 +5214,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C44") (unit 1)
         )
@@ -5221,7 +5257,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R26") (unit 1)
         )
@@ -5264,7 +5300,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R12") (unit 1)
         )
@@ -5302,7 +5338,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "#PWR?") (unit 1)
         )
@@ -5341,7 +5377,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "#PWR045") (unit 1)
         )
@@ -5384,7 +5420,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R31") (unit 1)
         )
@@ -5422,7 +5458,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "#PWR?") (unit 1)
         )
@@ -5454,6 +5490,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 27.94 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 27.94 262.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid db4a18b4-088b-4bce-a670-07c09ff9f0b9))
     (pin "2" (uuid c97ff527-77de-4075-a0c4-778c771e3acf))
     (instances
@@ -5475,7 +5514,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C41") (unit 1)
         )
@@ -5504,6 +5543,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 78.74 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 78.74 262.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 62465511-9535-4570-afed-7f0d44e2688c))
     (pin "2" (uuid d1d407c2-c8a2-4dec-845d-884e469e6df8))
     (instances
@@ -5525,7 +5567,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C45") (unit 1)
         )
@@ -5548,10 +5590,10 @@
     (property "Datasheet" "~" (at 96.52 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C840620" (at 96.52 62.23 0)
+    (property "LCSC" "" (at 96.52 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR. Part#" "CRA2512-FZ-R020ELF" (at 96.52 62.23 0)
+    (property "MFR. Part#" "MSMA2512R0200FGM" (at 96.52 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Note" "R_{S}" (at 96.52 62.23 90)
@@ -5573,7 +5615,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "R?") (unit 1)
         )
@@ -5619,7 +5661,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R15") (unit 1)
         )
@@ -5669,7 +5711,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "C?") (unit 1)
         )
@@ -5722,7 +5764,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "C?") (unit 1)
         )
@@ -5820,7 +5862,7 @@
     (pin "36" (uuid 2ef8c647-0f47-437b-9fd7-dae501a2b5ae))
     (pin "37" (uuid 6669beac-41de-4ed7-8327-eb0bd202103f))
     (instances
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "U?") (unit 5)
         )
@@ -5880,7 +5922,7 @@
     (pin "2" (uuid 856f12db-6dc2-4193-8986-7bea0f9f52fd))
     (pin "3" (uuid 5b9d14c3-a073-450d-9970-b41756c26e22))
     (instances
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "Q1") (unit 1)
         )
@@ -5923,7 +5965,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R16") (unit 1)
         )
@@ -5948,7 +5990,7 @@
     )
     (pin "1" (uuid 31d9dc1c-d8e0-468d-ba41-1059040a8814))
     (instances
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "#PWR?") (unit 1)
         )
@@ -5994,7 +6036,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R17") (unit 1)
         )
@@ -6027,7 +6069,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "#PWR048") (unit 1)
         )
@@ -6077,7 +6119,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "C?") (unit 1)
         )
@@ -6118,7 +6160,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "#PWR?") (unit 1)
         )
@@ -6164,7 +6206,7 @@
           (reference "J?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "J?") (unit 1)
         )
@@ -6210,7 +6252,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R33") (unit 1)
         )
@@ -6239,6 +6281,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 29.21 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 29.21 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0cbe1b6c-509f-4806-8484-39d8e4b1d923))
     (pin "2" (uuid 1aaefd0a-434a-4473-a87b-9a0b2fcb51f2))
     (instances
@@ -6260,7 +6305,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C28") (unit 1)
         )
@@ -6285,7 +6330,7 @@
     )
     (pin "1" (uuid 13d2ad36-913e-448a-adc0-ee9811be2371))
     (instances
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "#PWR?") (unit 1)
         )
@@ -6317,6 +6362,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 92.71 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 92.71 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 96904976-2315-490d-8d31-c5594c184482))
     (pin "2" (uuid d8b6cd9a-9778-4de0-abb9-a5128e43257d))
     (instances
@@ -6338,7 +6386,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C33") (unit 1)
         )
@@ -6381,7 +6429,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R21") (unit 1)
         )
@@ -6424,7 +6472,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "R34") (unit 1)
         )
@@ -6453,6 +6501,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 53.34 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 53.34 262.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ecf1d533-b4eb-4cd4-b3b0-41c1c6e909de))
     (pin "2" (uuid 6a4f9c22-bbad-463a-bbdf-43821ff3250d))
     (instances
@@ -6474,7 +6525,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C43") (unit 1)
         )
@@ -6517,7 +6568,7 @@
           (reference "J?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98"
           (reference "J?") (unit 1)
         )
@@ -6549,6 +6600,9 @@
     (property "MFR. Part#" "GRM21BR61H106KE43L" (at 143.51 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Alt." "CL21B106KAYQNNE" (at 143.51 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7a748870-836f-44c1-94ad-e5505d4530f8))
     (pin "2" (uuid 6eed9555-4b6b-4df5-a13e-d90205350155))
     (instances
@@ -6570,7 +6624,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1"
           (reference "C37") (unit 1)
         )

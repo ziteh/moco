@@ -460,7 +460,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/6c2b3782-0b5b-4b71-bad7-2198715f7b1c"
           (reference "#PWR054") (unit 1)
         )
@@ -503,7 +503,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/6c2b3782-0b5b-4b71-bad7-2198715f7b1c"
           (reference "C46") (unit 1)
         )
@@ -527,6 +527,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MFR. Part#" "MA702GQ-Z " (at 90.17 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Alt." "MA730" (at 90.17 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cba6414a-ece1-4d23-ac7d-d64a75b79892))
@@ -555,7 +558,7 @@
           (reference "U?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/6c2b3782-0b5b-4b71-bad7-2198715f7b1c"
           (reference "U3") (unit 1)
         )
@@ -585,7 +588,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/6c2b3782-0b5b-4b71-bad7-2198715f7b1c"
           (reference "#PWR053") (unit 1)
         )
@@ -615,7 +618,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "moco-pg4_2"
+      (project "moco-sc1"
         (path "/cac36919-bfa9-4a4d-8aba-473f26666d98/6c2b3782-0b5b-4b71-bad7-2198715f7b1c"
           (reference "#PWR052") (unit 1)
         )
