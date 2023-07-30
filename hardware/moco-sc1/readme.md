@@ -68,7 +68,7 @@
 
 ### Board Characteristics
 
-- Copper layer count: 6
+- Copper layer count: 4
 - Board overall dimensions: 40 x 40 mm
 - Min track/spacing: 0.2 mm / 0.2 mm
 - Min hole diameter: 0.3 mm
