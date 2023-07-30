@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "moco")(type "KiCad")(uri "${KIPRJMOD}/../moco.pretty")(options "")(descr ""))
-)
