@@ -11,7 +11,7 @@
 - [CSD88584Q5DC](https://www.ti.com/product/CSD88584Q5DC) Dual N-MOSFET half-bridge, 40V, 50A, 5x6mm
 - [MA702](https://www.monolithicpower.com/en/ma702.html) magnetic encoder, SPI interface
 - [TCAN33x](https://www.ti.com/product/TCAN330) 3.3V CAN transceiver
-- 2x04 2.54mm Pin header for debug, JST SM03B-SRSS-TB 1x03 for CAN bus
+- 2x04 2.54mm Pin header for debug, JST GH 1.25mm 1x03 for CAN bus
 
 ## Pinmap
 
