@@ -54,7 +54,7 @@
 | HSE OSC                         | --          | PF1   | OSC_OUT                   |
 | Reset                           | --          | PG10  | NRST                      |
 | BOOT, connected to GND          | --          | PB8   | BOOT0                     |
-| User LED (Red), active high     | --          | PA0   |                           |
+| User LED (Red), active high     | --          | PA0   | TIM2_CH1                  |
 | VCC indicator LED (Blue)        | --          | --    |                           |
 
 > - For gate driver internal connected GPIO, the input pin config without pull-up or -down is always allowed.
