@@ -75,7 +75,7 @@ BLDCMotor motor = BLDCMotor(MOTOR_POLE_PAIRS);
 #ifdef PWM_MODE_3
 DRV8316Driver3PWM driver = DRV8316Driver3PWM(PWMH_A, PWMH_B, PWMH_C, DRIVER_SPI_CS, false, NOT_SET, DRIVER_FAULT);
 #else
-DRV8316Driver6PWM driver = DRV8316Driver6PWM(PWMH_A, PWMH_B, PWMH_C, PWML_A, PWML_B, PWML_C, DRIVER_SPI_CS, false, NOT_SET, DRIVER_FAULT);
+DRV8316Driver6PWM driver = DRV8316Driver6PWM(PWMH_A, PWML_A, PWMH_B, PWML_B, PWMH_C, PWML_C, DRIVER_SPI_CS, false, NOT_SET, DRIVER_FAULT);
 #endif
 
 HardwareSerial Serial1(USART1); /* Change Serial instance from platformio.ini. */
