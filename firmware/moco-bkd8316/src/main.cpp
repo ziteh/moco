@@ -5,6 +5,8 @@
  * @note   Ref: https://github.com/simplefoc/Arduino-FOC-drivers/tree/master/examples/drivers/drv8316
  */
 
+#define SERIAL_UART_INSTANCE (2)
+
 #include <Arduino.h>
 #include <Wire.h>
 #include <SimpleFOC.h>
@@ -16,12 +18,12 @@
 // #define T_MOTOR_U10II
 #define QM4208
 
-#define PWM_MODE_3 /* Comment out to use 6x PWM mode. */
+// #define PWM_MODE_3 /* Comment out to use 6x PWM mode. */
 #define OPENLOOP   /* Comment out to use close-loop control. */
 // #define ANGLE_CONTROL /* Comment out to use velocity control. */
 
 #define BAUDRATE (115200) /* Serial port baudrate. */
-#define DEFAULT_TARGET (6)
+#define DEFAULT_TARGET (10)
 
 /* Motor parameters. */
 #if defined(T_MOTOR_U8)
@@ -68,7 +70,7 @@
 
 /* Power. */
 #define VOLTAGE_SUPPLY (6 * 3.7) /* Unit in V. */
-#define CURRENT_LIMIT (1.5)      /* Unit in A. */
+#define CURRENT_LIMIT (1)      /* Unit in A. */
 
 BLDCMotor motor = BLDCMotor(MOTOR_POLE_PAIRS);
 
@@ -107,7 +109,7 @@ void setup()
 
   /* Configure driver. https://github.com/simplefoc/Arduino-FOC-drivers/tree/master/examples/drivers/drv8316 */
   driver.voltage_power_supply = VOLTAGE_SUPPLY;
-// driver.pwm_frequency = 20 * 1e3;
+driver.pwm_frequency = 2e4;
 #ifndef PWM_MODE_3
   // driver.dead_zone = 0.05;
 #endif
@@ -139,7 +141,7 @@ void setup()
   // motor.PID_velocity.I = 20;
   // motor.PID_velocity.D = 0.001;
   // motor.PID_velocity.output_ramp = 500; /* Unit in volts/s. */
-  // motor.LPF_velocity.Tf = 0.01;
+  motor.LPF_velocity.Tf = 0.01;
   // motor.velocity_limit = 15; /* Unit in rad/s. */
 
   /* Angle/Position control loop setup. */
@@ -162,18 +164,22 @@ void setup()
 
   Serial.println("All Ready!");
   _delay(1000);
-  // driver.setDriverOffEnabled(true);
-  // driver.enable();
-  // motor.enable();
+  driver.clearFault();
   printDRV8316Status();
+  // motor.enable();
+  // driver.setDriverOffEnabled(true);
+  driver.setDriverOffEnabled(false);
+  // driver.enable();
 }
 
 void loop()
 {
+  driver.clearFault();
   // motor.loopFOC(); /* Main FOC algorithm. */
-  motor.move(10); /* Motion control. */
+  motor.move(DEFAULT_TARGET); /* Motion control. */
 
-  // command.run();
+  driver.clearFault();
+  command.run();
 }
 
 void printDRV8316Status(void)

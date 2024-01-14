@@ -9,7 +9,7 @@
     (rev "1.0")
     (comment 1 "BLDC motor controller/driver")
     (comment 2 "STSPIN32F0A MCU/Gate driver and SiZ250DT Dual N-MOSFET")
-    (comment 3 "MIT license (Open source hardware)")
+    (comment 3 "Open source hardware, CERN-OHL-P v2")
     (comment 4 "https://github.com/ziteh/moco")
   )
 

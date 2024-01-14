@@ -4,6 +4,8 @@
  * @author ZiTe (honmonoh@gmail.com)
  */
 
+#define SERIAL_UART_INSTANCE (1)
+
 #include <Arduino.h>
 #include <Wire.h>
 #include <SimpleFOC.h>
@@ -23,7 +25,7 @@
 #define CURRENT_LIMIT (3)        /* Unit in A. */
 
 #define BAUDRATE (115200) /* Serial port baudrate. */
-#define DEFAULT_TARGET (0)
+#define DEFAULT_TARGET (6)
 
 /* Pinmap. Select board/MCU by PlatformIO env (platformio.ini). */
 #if defined(NUCLEO_G431RB)
@@ -97,7 +99,8 @@ BLDCDriver3PWM driver = BLDCDriver3PWM(PWMH_A, PWMH_B, PWMH_C);
 BLDCDriver6PWM driver = BLDCDriver6PWM(PWMH_A, PWML_A, PWMH_B, PWML_B, PWMH_C, PWML_C);
 #endif
 
-HardwareSerial Serial1(USART1); /* Change Serial instance from platformio.ini. */
+// HardwareSerial Serial1(USART1); /* Change Serial instance from platformio.ini. */
+HardwareSerial Serial1(UART_RX, UART_TX);
 Commander command = Commander(Serial);
 void onMotor(char *cmd) { command.motor(&motor, cmd); }
 

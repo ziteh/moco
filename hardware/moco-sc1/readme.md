@@ -13,6 +13,36 @@
 - [TCAN33x](https://www.ti.com/product/TCAN330) 3.3V CAN transceiver
 - 2x04 2.54mm Pin header for debug, JST GH 1.25mm 1x03 for CAN bus
 
+## PCB
+
+PCB online preview available [here](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fziteh%2Fmoco%2Ftree%2Fmain%2Fhardware%2Fmoco-sc1), powered by [KiCanvas](https://github.com/theacodes/kicanvas).
+
+### Jumper
+
+`SB1`: Close to connect CAN bus 120Ω terminal resistor.
+
+### Board Characteristics
+
+- Copper layer count: 4
+- Board overall dimensions: 40 x 40 mm
+- Min track/spacing: 0.2 mm / 0.2 mm
+- Min hole diameter: 0.3 mm
+- Castellated pads: No
+- Edge card connectors: No
+- Plated board edge: No
+- 1 or 2oz copper available
+
+## SPI
+
+MA702 encoder SPI:
+- Mode:
+  - 0 (CPOL=0, CPHA=0) or 3 (CPOL=1, CPHA=1) detected automatically
+  - Data sampled on rising edge, transmission on falling
+- 16-bit data frame
+- MSB first
+- nCS pin active low
+- 25MHz clock max
+
 ## Pinmap
 
 | Description                     | Gate Driver | STM32 | STM32 Func                |
@@ -60,33 +90,6 @@
 > - For gate driver internal connected GPIO, the input pin config without pull-up or -down is always allowed.
 > - It is recommended to set PB8 (BOOT0) in a mode other than analog mode after startup to limit consumption.
 
-## PCB
-
-### Jumper
-
-`SB1`: Close to connect CAN bus 120Ω terminal resistor.
-
-### Board Characteristics
-
-- Copper layer count: 4
-- Board overall dimensions: 40 x 40 mm
-- Min track/spacing: 0.2 mm / 0.2 mm
-- Min hole diameter: 0.3 mm
-- Castellated pads: No
-- Edge card connectors: No
-- Plated board edge: No
-- 2oz copper
-
-## SPI
-
-MA702 encoder SPI:
-- Mode:
-  - 0 (CPOL=0, CPHA=0) or 1 (CPOL=1, CPHA=1)
-  - Data sampled on first edge
-- 16-bit data frame
-- MSB first
-- nCS pin active low
-- 25MHz clock
 
 ## STSPIN32 SiP
 
@@ -113,6 +116,7 @@ MA702 encoder SPI:
 
 ## Reference
 
+- [runger1101001/simplefoc_funqi_example: Sample firmware for STSPIN32G4 based BLDC driver](https://github.com/runger1101001/simplefoc_funqi_example)
 - [qwertpas/O32controller: Miniature closed-loop controller for brushless DC motors](https://github.com/qwertpas/O32controller)
 - [Juanduino/STSPIN32G4-FunQi-Stack: SimpleFoc Format Dev. for potential 8pin PWM stepper use w. 4th half-bridge (also 6pin PWM BLDC use w. extra FET driver for eg. brake-resistor)](https://github.com/Juanduino/STSPIN32G4-FunQi-Stack)
   - [STspin32G4 support - hardware support - SimpleFOC Community](https://community.simplefoc.com/t/stspin32g4-support/2027/6?page=3)
