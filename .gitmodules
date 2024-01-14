@@ -1,0 +1,3 @@
+[submodule "firmware/moco-bkd8316/lib/Arduino-FOC-drivers"]
+	path = firmware/moco-bkd8316/lib/Arduino-FOC-drivers
+	url = https://github.com/simplefoc/Arduino-FOC-drivers.git

@@ -10,7 +10,7 @@
     (date "2023-01-06")
     (rev "1.0")
     (comment 1 "rectangle, discrete, 50mm")
-    (comment 2 "MIT license (Open source hardware)")
+    (comment 2 "Open source hardware, CERN-OHL-P v2")
     (comment 3 "https://github.com/ziteh/moco")
   )
 

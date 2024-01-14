@@ -4,6 +4,8 @@
 
 STM32G431C8T6 MCU, DRV8301 gate driver, CSD18540Q5B power N-MOSFETs and AS5047x magnetic encoder.
 
+Based on [ODrive](https://github.com/odriverobotics/ODriveHardware) `v3.5` PCB and [SimpleFOC](https://simplefoc.com/) firmware.
+
 > Seems unstable.
 
 | Front                                | Back                                 | Layers                               |

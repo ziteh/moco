@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -113,9 +113,9 @@
         "max_error": 0.005,
         "min_clearance": 0.19999999999999998,
         "min_connection": 0.19999999999999998,
-        "min_copper_edge_clearance": 0.35,
+        "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.32999999999999996,
-        "min_hole_to_hole": 0.5,
+        "min_hole_to_hole": 0.35,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 1,
@@ -124,8 +124,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.5499999999999999,
+        "min_via_annular_width": 0.19999999999999998,
+        "min_via_diameter": 0.7,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -172,7 +172,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.35
       ],
       "via_dimensions": [
         {
@@ -180,11 +182,11 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.56,
+          "diameter": 0.7,
           "drill": 0.3
         },
         {
-          "diameter": 0.75,
+          "diameter": 0.8,
           "drill": 0.4
         }
       ],
@@ -398,7 +400,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -413,7 +415,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "moco-bkd8316.kicad_pro",
+    "filename": "moco-pg4.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -431,8 +433,25 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.56,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.35,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -478,18 +497,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -500,8 +509,16 @@
   },
   "sheets": [
     [
-      "60ff2a18-57fe-4fe9-a422-66a2356bfaaa",
+      "cac36919-bfa9-4a4d-8aba-473f26666d98",
       ""
+    ],
+    [
+      "5cc8c76e-bfeb-4039-b96e-f0aba7e1aec1",
+      "Power Stage"
+    ],
+    [
+      "6c2b3782-0b5b-4b71-bad7-2198715f7b1c",
+      "Rotary Sensor"
     ]
   ],
   "text_variables": {}

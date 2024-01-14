@@ -1,0 +1,35 @@
+(footprint "wire_2.2mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 0 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp b153a858-9f3c-4db9-9abb-d7ea32fa02ed)
+  )
+  (fp_text value "wire_2.2mm" (at 0 3 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0a5caf8d-c9b9-4f49-903a-d656b398e0a8)
+  )
+  (fp_circle (center 0 0) (end 2 0)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp e5e849ec-f437-44d9-bafc-78cf43efc0c0))
+  (pad "1" thru_hole circle (at -1.385819 -0.574025 225) (size 0.7 0.7) (drill 0.4) (layers "*.Cu" "*.Mask") (tstamp abc939fc-f828-4700-b0e7-145a3404b95a))
+  (pad "1" thru_hole circle (at -1.385819 0.574025 225) (size 0.7 0.7) (drill 0.4) (layers "*.Cu" "*.Mask") (tstamp 5b7ec484-2428-4638-98dd-2211eaa7496a))
+  (pad "1" thru_hole circle (at -0.574025 -1.385819 225) (size 0.7 0.7) (drill 0.4) (layers "*.Cu" "*.Mask") (tstamp 1af424c9-c42e-41e6-b7fd-c88a24cee5aa))
+  (pad "1" thru_hole circle (at -0.574025 1.385819 225) (size 0.7 0.7) (drill 0.4) (layers "*.Cu" "*.Mask") (tstamp 875e1016-554c-43de-b583-f24dab13a123))
+  (pad "1" thru_hole circle (at 0 0) (size 3.7 3.7) (drill 2.2) (layers "*.Cu" "*.Mask") (tstamp 87bba040-f903-46a7-baa3-e5eef75b2d99))
+  (pad "1" thru_hole circle (at 0.574025 -1.385819 225) (size 0.7 0.7) (drill 0.4) (layers "*.Cu" "*.Mask") (tstamp c1c9e664-c33d-4162-ac56-ce9e8c4be7ac))
+  (pad "1" thru_hole circle (at 0.574025 1.385819 225) (size 0.7 0.7) (drill 0.4) (layers "*.Cu" "*.Mask") (tstamp 9ebd1bc3-8554-4695-8fc4-0cdd15c804c1))
+  (pad "1" thru_hole circle (at 1.385819 -0.574025 225) (size 0.7 0.7) (drill 0.4) (layers "*.Cu" "*.Mask") (tstamp 7c9643c4-5c67-4bcc-ba6b-f2fd83d53290))
+  (pad "1" thru_hole circle (at 1.385819 0.574025 225) (size 0.7 0.7) (drill 0.4) (layers "*.Cu" "*.Mask") (tstamp d1e9829b-e6ff-423f-9b94-1436a6977c72))
+  (group "" (id 1afa7d88-c746-4d67-bf1e-853ebc45b691)
+    (members
+      1af424c9-c42e-41e6-b7fd-c88a24cee5aa
+      5b7ec484-2428-4638-98dd-2211eaa7496a
+      7c9643c4-5c67-4bcc-ba6b-f2fd83d53290
+      875e1016-554c-43de-b583-f24dab13a123
+      9ebd1bc3-8554-4695-8fc4-0cdd15c804c1
+      abc939fc-f828-4700-b0e7-145a3404b95a
+      c1c9e664-c33d-4162-ac56-ce9e8c4be7ac
+      d1e9829b-e6ff-423f-9b94-1436a6977c72
+    )
+  )
+)

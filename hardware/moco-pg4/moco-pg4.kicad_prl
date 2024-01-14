@@ -9,12 +9,11 @@
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
-      "pads": 1.0,
+      "pads": 0.7699999809265137,
       "tracks": 1.0,
-      "vias": 1.0,
-      "zones": 0.6
+      "vias": 0.7799999713897705,
+      "zones": 0.4699999988079071
     },
-    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -23,7 +22,7 @@
       "lockedItems": false,
       "otherItems": true,
       "pads": true,
-      "text": true,
+      "text": false,
       "tracks": true,
       "vias": true,
       "zones": true
@@ -40,7 +39,6 @@
       10,
       11,
       13,
-      14,
       15,
       16,
       17,
@@ -61,13 +59,14 @@
       33,
       34,
       35,
-      36
+      36,
+      40
     ],
-    "visible_layers": "ffcffff_ffffffff",
+    "visible_layers": "ffcffcf_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "moco-bkd8316.kicad_prl",
+    "filename": "moco-pg4.kicad_prl",
     "version": 3
   },
   "project": {

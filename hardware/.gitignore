@@ -17,6 +17,9 @@ _autosave-*
 fp-info-cache
 *.log
 
+# Lock
+~*.kicad_*.lck
+
 # Netlist files (exported from Eeschema)
 *.net
 
@@ -37,3 +40,4 @@ jlcpcb/
 
 # Backup
 *-backups/
+

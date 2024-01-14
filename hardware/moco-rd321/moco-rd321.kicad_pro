@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -65,7 +65,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -111,11 +111,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.19999999999999998,
-        "min_connection": 0.19999999999999998,
-        "min_copper_edge_clearance": 0.35,
+        "min_clearance": 0.13,
+        "min_connection": 0.13,
+        "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.32999999999999996,
-        "min_hole_to_hole": 0.5,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 1,
@@ -123,9 +123,9 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
+        "min_track_width": 0.13,
         "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.5499999999999999,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -172,7 +172,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.15,
+        0.2,
+        0.35
       ],
       "via_dimensions": [
         {
@@ -398,7 +401,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -413,7 +416,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "moco-bkd8316.kicad_pro",
+    "filename": "moco-rd401.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -478,18 +481,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -500,8 +493,16 @@
   },
   "sheets": [
     [
-      "60ff2a18-57fe-4fe9-a422-66a2356bfaaa",
+      "0d0fd026-cb0a-4e9b-9c13-e9923112ca8f",
       ""
+    ],
+    [
+      "1351d79f-bd59-46e6-b973-5ebb8b6085b2",
+      "Triple Half-bridge"
+    ],
+    [
+      "76a9f954-8f85-4c28-9e94-2311c533c47d",
+      " Rotary Sensor"
     ]
   ],
   "text_variables": {}

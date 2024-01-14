@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|149770001|107229999|9256bdbb-3f88-427b-af8a-d21cf0b6fb86|fe4c70e8-6607-48ef-95b4-5747e504cb07"
+      ],
       "meta": {
         "version": 2
       },
@@ -111,8 +113,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.19999999999999998,
-        "min_connection": 0.19999999999999998,
+        "min_clearance": 0.13,
+        "min_connection": 0.13,
         "min_copper_edge_clearance": 0.35,
         "min_hole_clearance": 0.32999999999999996,
         "min_hole_to_hole": 0.5,
@@ -123,9 +125,9 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
+        "min_track_width": 0.13,
         "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.5499999999999999,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -172,7 +174,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.15,
+        0.2,
+        0.35
       ],
       "via_dimensions": [
         {
@@ -184,7 +189,7 @@
           "drill": 0.3
         },
         {
-          "diameter": 0.75,
+          "diameter": 0.7,
           "drill": 0.4
         }
       ],
@@ -413,7 +418,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "moco-bkd8316.kicad_pro",
+    "filename": "moco-oi451.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -478,18 +483,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -500,8 +495,20 @@
   },
   "sheets": [
     [
-      "60ff2a18-57fe-4fe9-a422-66a2356bfaaa",
+      "171831cd-2a0d-47b9-8420-65898c688d08",
       ""
+    ],
+    [
+      "8c626c9e-bc00-4eb5-9b1c-4380247b0f28",
+      "MCU"
+    ],
+    [
+      "e49edf63-a462-4dde-9ddc-a334d0522771",
+      "Driver"
+    ],
+    [
+      "09f9ddc7-dce7-4d23-abae-17b64541c78f",
+      " Rotary Sensor"
     ]
   ],
   "text_variables": {}
