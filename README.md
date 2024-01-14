@@ -14,6 +14,9 @@ BLDC/PMSM motor controller/driver boards.
 
 ## Disclaimer & License 
 
+> **Warning**
+> None of the boards here are guaranteed to work.
+
 These files are provided AS IS, without warranty of any kind.  
 Including but not limited to manufacturing, assembly, procurement and use at your own risk.  
 It is recommended to check yourself before use.  
