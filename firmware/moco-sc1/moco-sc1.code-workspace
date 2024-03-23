@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"C_Cpp.default.defines": [
+			"DEBUG",
+			"USE_HAL_DRIVER",
+			"USE_FULL_LL_DRIVER",
+			"STM32G431xx",
+			"__GNUC__"
+		],
+		"C_Cpp.clang_format_fallbackStyle": "{Language: Cpp, BasedOnStyle: LLVM, TabWidth: 4, IndentWidth: 4, AccessModifierOffset: -4, UseTab: Never, AlignAfterOpenBracket: Align, AllowShortBlocksOnASingleLine: Always, AllowShortFunctionsOnASingleLine: All, AllowShortIfStatementsOnASingleLine: AllIfsAndElse, AllowShortLoopsOnASingleLine: true, BinPackArguments: false, BinPackParameters: false, BreakBeforeBraces: Allman, ColumnLimit: 0, FixNamespaceComments: false, IndentPPDirectives: BeforeHash, IndentWrappedFunctionNames: true, KeepEmptyLinesAtTheStartOfBlocks: false, MaxEmptyLinesToKeep: 1, NamespaceIndentation: All, SortIncludes: false}",
+	}
+}

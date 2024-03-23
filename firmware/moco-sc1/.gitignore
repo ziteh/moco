@@ -1,0 +1,5 @@
+*.launch
+
+.settings/
+[Rr]elease/
+[Dd]ebug/
