@@ -106,7 +106,7 @@ void space_vector_pwm(float q, float angle_rad, float zero_angle_rad, float volt
     {
         angle_rad += _PI;
     }
-    q = abs(q);
+    q = fabs(q);
 
     angle_rad = normalize_angle(angle_rad + zero_angle_rad + _PI_2);
     int8_t sector = floor(angle_rad / _PI_3) + 1;

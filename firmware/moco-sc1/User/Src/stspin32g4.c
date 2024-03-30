@@ -10,6 +10,7 @@
 #include "parameters.h"
 #include "motion.h"
 #include "dwt.h"
+#include <math.h>
 
 #define GET_PWM_CCR(dc) ((GD_PWM_TIM_ARR + 1) * (float)(dc)) // dc = 0 ~ 1.0
 
@@ -43,8 +44,9 @@ uint32_t a = 0;
 
 void ml_handler(void)
 {
+    float vm = 12;
     LL_GPIO_TogglePin(GPIOA, LL_GPIO_PIN_15);
-    open_loop_velocity(0.008726F, 1, 12, sin_pwm);
+    open_loop_velocity(0.25F, vm * 0.1F, vm, space_vector_pwm);
 }
 
 void spg4_adc_init(void)

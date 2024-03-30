@@ -26,7 +26,7 @@ void open_loop_velocity(float target_vel, float voltage, float vm, modulation_fn
     angle_prev = angle_next;
 
     float ua, ub, uc;
-    mod_fn(vm * 0.1F, angle_next, 0, vm, &ua, &ub, &uc);
+    mod_fn(voltage, angle_next, 0, vm, &ua, &ub, &uc);
     spg4_set_pwm(ua / vm, ub / vm, uc / vm);
-    // spg4_set_pwm(0, ub / vm, 0);
+    //spg4_set_pwm(0, ub / vm, 0);
 }

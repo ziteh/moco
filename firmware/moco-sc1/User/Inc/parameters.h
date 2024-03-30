@@ -25,17 +25,18 @@
 
 // STSPIN32G4 gate driver PWM
 #define GD_PWM_TIM_INST (TIM1)
-#define GD_PWM_TIM_PSC (4 - 1)   // Prescaler
-#define GD_PWM_TIM_ARR (583 - 1) // Auto reload
-// #define GD_PWM_TIM_DTG (0x86)    // Dead-time generator, 1usec @ 140MHz
-#define GD_PWM_TIM_DTG (0xA6)
+#define GD_PWM_TIM_PSC (1 - 1)    // Prescaler
+#define GD_PWM_TIM_ARR (2332 - 1) // Auto reload
+// #define GD_PWM_TIM_DTG (0x86)     // Dead-time generator, 0x86 = 1usec @ 140MHz
+#define GD_PWM_TIM_DTG (0x80)
+// #define GD_PWM_TIM_DTG (0x0)
 
 // Main loop timer
 #define ML_TIM_INST (TIM3)
-#define ML_TIM_PSC (140 - 1)  // Prescaler 140
-#define ML_TIM_ARR (1000 - 1) // Auto reload
-#define ML_TIM_HZ (1000U)
-#define ML_TIM_MS (1U)
+#define ML_TIM_PSC (14 - 1)  // Prescaler 140
+#define ML_TIM_ARR (500 - 1) // Auto reload
+#define ML_TIM_HZ (20000U)
+#define ML_TIM_MS (0.05F)
 
 // Hearbeat LED
 #define HB_LED_TIM_INST (TIM2)
