@@ -12,6 +12,8 @@ BLDC/PMSM motor controller/driver boards.
 - [PG4](/hardware/moco-pg4/):  :construction: WIP.
 - [BKD8316](/hardware/moco-bkd8316/): DRV8316 Breakout board
 
+[SC1 Demo video](https://youtu.be/PZ3AqAKdYeg)
+
 ## Disclaimer & License 
 
 > **Warning**
