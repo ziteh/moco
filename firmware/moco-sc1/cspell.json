@@ -1,0 +1,47 @@
+{
+    // Spell Checker
+    // https://streetsidesoftware.com/vscode-spell-checker/
+    "version": "0.2",
+    "language": "en",
+    "enabledLanguageIds": [
+        "c",
+        "markdown"
+    ],
+    "ignorePaths": [
+        "Drivers/**",
+        "Core/**"
+    ],
+    // words - list of words to be always considered correct
+    "words": [
+        "ADDRSLAVE",
+        "AUTOEND",
+        "CORDIC",
+        "cyccnt",
+        "CYCCNTENA",
+        "DEMCR",
+        "dtmin",
+        "GNUC",
+        "GPIO",
+        "GPIOA",
+        "ilock",
+        "JEOC",
+        "moco",
+        "nfault",
+        "POWMNG",
+        "Prescaler",
+        "RXNE",
+        "SPWM",
+        "stby",
+        "STSPIN",
+        "SVPWM",
+        "SYSCLK",
+        "thsd",
+        "TRCENA",
+        "TXIS",
+        "uvlo",
+        "vbus",
+        "Watchpoint"
+    ],
+    // flagWords - list of words to be always considered incorrect
+    "flagWords": []
+}
