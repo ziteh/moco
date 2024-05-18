@@ -76,6 +76,7 @@ static void MX_ADC1_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 extern float vbus_adc;
+extern float act;
 /* USER CODE END 0 */
 
 /**
@@ -127,14 +128,14 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  LL_USART_TransmitData8(USART1, 0x41);
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    uint8_t s = get_status();
-    LL_USART_TransmitData8(USART1, s);
-    LL_USART_TransmitData8(USART1, 0x00);
+    LL_USART_TransmitData8(USART1, act);
+    LL_USART_TransmitData8(USART1, 0xFE);
     gd_clear_fault();
 
     //LL_USART_TransmitData8(USART1, (uint8_t)vbus_adc);

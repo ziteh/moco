@@ -206,7 +206,7 @@ void SysTick_Handler(void)
 void ADC1_2_IRQHandler(void)
 {
   /* USER CODE BEGIN ADC1_2_IRQn 0 */
-   adc2_isr();
+   adc_isr();
   /* USER CODE END ADC1_2_IRQn 0 */
 
   /* USER CODE BEGIN ADC1_2_IRQn 1 */
