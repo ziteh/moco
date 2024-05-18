@@ -14,8 +14,8 @@
     #define _SIN(rad) sin(rad)
 #endif
 
-#define DEG_TO_RAD(v) ((float)(v) * _PI_180)
-#define RAD_TO_DEG(v) ((float)(v) * _180_PI)
+// #define DEG_TO_RAD(v) ((float)(v) * _PI_180)
+// #define RAD_TO_DEG(v) ((float)(v) * _180_PI)
 
 typedef struct
 {

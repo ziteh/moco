@@ -3,8 +3,7 @@
 #include "stm32g4xx_ll_gpio.h"
 #include "parameters.h"
 
-static uint16_t ccr = 0; // Capture/Compare Register value
-static int8_t dir = 1;
+const float MAX_PERCENTAGE = 0.8F;
 
 void heartbeat_init(void)
 {
@@ -16,7 +15,10 @@ void heartbeat_init(void)
 
 void heartbeat_handler(void)
 {
-    if (ccr >= (HB_LED_TIM_ARR * 0.8F))
+    static uint16_t ccr = 0; // Capture/Compare Register value
+    static int8_t dir = 1;
+
+    if (ccr >= (HB_LED_TIM_ARR * MAX_PERCENTAGE))
     {
         dir = -1;
     }

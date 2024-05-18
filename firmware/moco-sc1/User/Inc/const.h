@@ -16,4 +16,6 @@
 #define _SQRT3 (1.73205080757F)
 #define _SQRT3_2 (0.86602540F)
 
+#define _33_4095 (8.058608E-4F); // 3.3V / (2^12-1)
+
 #endif /* CONST_H_ */

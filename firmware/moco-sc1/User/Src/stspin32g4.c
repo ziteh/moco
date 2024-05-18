@@ -14,11 +14,13 @@
 
 #define GET_PWM_CCR(dc) ((GD_PWM_TIM_ARR + 1) * (float)(dc)) // dc = 0 ~ 1.0
 
+volatile float act = 0;
+
 void spg4_init(void)
 {
     dwt_init();
 
-    spg4_set_pwm(50.0, 50.0, 50.0);
+    spg4_set_pwm(0.5F, 0.5F, 0.5F);
     LL_TIM_OC_SetCompareCH4(GD_PWM_TIM_INST, 3);
 
     // LL_TIM_EnableAllOutputs(TIM8);
@@ -29,6 +31,7 @@ void spg4_init(void)
     LL_TIM_EnableIT_UPDATE(ML_TIM_INST);
     LL_TIM_EnableCounter(ML_TIM_INST);
 
+    // PWM timer.
     LL_TIM_EnableAllOutputs(GD_PWM_TIM_INST);
     LL_TIM_CC_EnableChannel(GD_PWM_TIM_INST, LL_TIM_CHANNEL_CH1);
     LL_TIM_CC_EnableChannel(GD_PWM_TIM_INST, LL_TIM_CHANNEL_CH1N);
@@ -51,7 +54,7 @@ void ml_handler(void)
     open_loop_velocity(0.25F, vm * 0.1F, vm, space_vector_pwm);
 }
 
-void spg4_adc_init()
+void spg4_adc_init(void)
 {
     // LL_ADC_Enable(VBUS_ADC_INST);
     // LL_ADC_Disable(VBUS_ADC_INST);
@@ -92,16 +95,6 @@ void spg4_adc_init()
     HAL_Delay(10);
 }
 
-void spg4_adc_start(void)
-{
-    LL_ADC_REG_StartConversion(VBUS_ADC_INST);
-}
-
-float vbus_adc = 0;
-volatile float act = 0;
-
-const float ADC_33_4095 = 8.058608E-4F; // 3.3V / (2^12-1)
-
 void adc_isr(void)
 {
     ADC_TypeDef *adc;
@@ -119,7 +112,7 @@ void adc_isr(void)
     }
 
     uint32_t raw = LL_ADC_INJ_ReadConversionData32(adc, LL_ADC_INJ_RANK_1);
-    act = (raw & 0x0FFF) * ADC_33_4095; // 0x0FFF: 12-bits mask
+    act = (float)(raw & 0x0FFF) * _33_4095; // 0x0FFF: 12-bits mask
 
     LL_ADC_ClearFlag_JEOC(adc);
     LL_ADC_INJ_StartConversion(adc); // start next conversion

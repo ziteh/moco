@@ -75,7 +75,6 @@ static void MX_ADC1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-extern float vbus_adc;
 extern float act;
 /* USER CODE END 0 */
 

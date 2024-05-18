@@ -188,34 +188,12 @@ reg_nfault_t reg_nfault = {
     .reg = 0x7F,
 };
 
-const reg_stby_t reg_stby = {
-    .bit.stby = 1,
-    .bit._reserved27 = 0x00,
-};
-
-const reg_lock_t reg_unlock = {
-    .bit.nlock = 0xF,
-    .bit.lock = 0x0,
-};
-
-const reg_lock_t reg_lock = {
-    .bit.nlock = 0x0,
-    .bit.lock = 0x0,
-};
-
-const reg_clear_t reg_clear = {
-    .bit.fault_clear = 0xFF,
-};
-
-const reg_reset_t reg_reset = {
-    .bit.reset = 0xFF, // Setting high all the bits resets the regs to the default value.
-};
-
 /**
  * @brief Clear all faults
  */
 void gd_clear_fault(void)
 {
+    const reg_clear_t reg_clear = {.bit.fault_clear = 0xFF};
     uint8_t data[] = {GD_REG_CLEAR, reg_clear.reg};
     i2c_send_blocking(data, 2);
 }
@@ -225,7 +203,12 @@ void gd_clear_fault(void)
  */
 void gd_unlock(void)
 {
-    uint8_t data[] = {GD_REG_LOCK, reg_unlock.reg}; // LOCK!=NLOCK: protected registers unlock.
+    // LOCK!=NLOCK: protected registers unlock.
+    const reg_lock_t reg_unlock = {
+        .bit.nlock = 0xF,
+        .bit.lock = 0x0,
+    };
+    uint8_t data[] = {GD_REG_LOCK, reg_unlock.reg};
     i2c_send_blocking(data, 2);
 }
 
@@ -234,7 +217,12 @@ void gd_unlock(void)
  */
 void gd_lock(void)
 {
-    uint8_t data[] = {GD_REG_LOCK, reg_lock.reg}; // LOCK!=NLOCK: protected registers unlock.
+    // LOCK==NLOCK: protected registers lock.
+    const reg_lock_t reg_lock = {
+        .bit.nlock = 0x0,
+        .bit.lock = 0x0,
+    };
+    uint8_t data[] = {GD_REG_LOCK, reg_lock.reg};
     i2c_send_blocking(data, 2);
 }
 
@@ -243,6 +231,10 @@ void gd_lock(void)
  */
 void gd_enter_standby(void)
 {
+    const reg_stby_t reg_stby = {
+        .bit.stby = 1,
+        .bit._reserved27 = 0x00,
+    };
     uint8_t data[] = {GD_REG_STBY, reg_stby.reg};
     i2c_send_blocking(data, 2);
 }
@@ -252,6 +244,8 @@ void gd_enter_standby(void)
  */
 void gd_reset(void)
 {
+    // Setting high all the bits resets the regs to the default value.
+    const reg_reset_t reg_reset = {.bit.reset = 0xFF};
     uint8_t data[] = {GD_REG_RESET, reg_reset.reg};
     i2c_send_blocking(data, 2);
 }
@@ -312,7 +306,12 @@ uint8_t get_status(void)
 
 int8_t i2c_send_blocking(const uint8_t *data, uint8_t len)
 {
-    LL_I2C_HandleTransfer(GD_I2C_INST, GD_ADDRESS, LL_I2C_ADDRSLAVE_7BIT, len, LL_I2C_MODE_AUTOEND, LL_I2C_GENERATE_START_WRITE);
+    LL_I2C_HandleTransfer(GD_I2C_INST,
+                          GD_ADDRESS,
+                          LL_I2C_ADDRSLAVE_7BIT,
+                          len,
+                          LL_I2C_MODE_AUTOEND,
+                          LL_I2C_GENERATE_START_WRITE);
     for (uint8_t i = 0; i < len; i++)
     {
         while (!LL_I2C_IsActiveFlag_TXIS(GD_I2C_INST))
@@ -327,7 +326,12 @@ uint8_t i2c_read_blocking(uint8_t addr)
 {
     uint8_t data[] = {addr};
     i2c_send_blocking(data, 1);
-    LL_I2C_HandleTransfer(GD_I2C_INST, GD_ADDRESS, LL_I2C_ADDRSLAVE_7BIT, 1, LL_I2C_MODE_AUTOEND, LL_I2C_GENERATE_START_READ);
+    LL_I2C_HandleTransfer(GD_I2C_INST,
+                          GD_ADDRESS,
+                          LL_I2C_ADDRSLAVE_7BIT,
+                          1,
+                          LL_I2C_MODE_AUTOEND,
+                          LL_I2C_GENERATE_START_READ);
     while (!LL_I2C_IsActiveFlag_RXNE(GD_I2C_INST))
     {
     }

@@ -38,7 +38,7 @@
 #define ML_TIM_HZ (20000U)
 #define ML_TIM_MS (0.05F)
 
-// Hearbeat LED
+// Heartbeat LED
 #define HB_LED_TIM_INST (TIM2)
 #define HB_LED_TIM_PSC (2735 - 1) // Prescaler
 #define HB_LED_TIM_ARR (256 - 1)  // Auto reload

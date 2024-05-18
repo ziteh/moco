@@ -6,5 +6,6 @@
 
 uint8_t gd_init(void);
 uint8_t get_status(void);
+void gd_clear_fault(void);
 
 #endif /* STSPIN32G4_GATE_DRIVER_H_ */

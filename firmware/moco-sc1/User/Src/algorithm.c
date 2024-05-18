@@ -76,13 +76,10 @@ void sin_pwm(float q, float angle_rad, float zero_angle_rad, float voltage, floa
 {
     angle_rad = normalize_angle(angle_rad + zero_angle_rad);
 
-    float u_alpha;
-    float u_beta;
+    float u_alpha, u_beta;
     inv_park_tf_0d(q, angle_rad, &u_alpha, &u_beta);
 
-    float u_a;
-    float u_b;
-    float u_c;
+    float u_a, u_b, u_c;
     inv_clarke_tf(u_alpha, u_beta, &u_a, &u_b, &u_c);
 
     float vol_2 = voltage / 2.0F;
